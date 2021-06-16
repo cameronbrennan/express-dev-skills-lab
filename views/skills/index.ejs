@@ -1,0 +1,10 @@
+<%- include('../partials/header') %> 
+    <ul>
+      <% skills.forEach(s => { %>
+      <li>
+        <a href="/skills/<%= s.id %> "><%= s.skill %> </a>
+        <%= s.skill %> - <%= s.known ? "Has Skill" : "No Skill" %>
+      </li>
+      <% }) %>
+    </ul>
+<%- include('../partials/footer') %> 

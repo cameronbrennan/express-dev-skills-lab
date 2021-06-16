@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: black;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 50px;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+  "nav"
+  "main"
+}
+
+a {
+  color: #00B7FF;
+}
